@@ -63,7 +63,7 @@ function removeFromCart(item) {
     if (cart[i].itemName == item){
       cart.splice(i,1);
       removedItem = true;
-      return "cheese";
+      //return "cheese";
     }
   }
   if(removedItem === false){
