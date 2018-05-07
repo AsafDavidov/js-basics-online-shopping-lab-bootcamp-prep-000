@@ -66,7 +66,7 @@ function removeFromCart(item) {
       return "cheese";
     }
   }
-  if(removedItem == false){
+  if(removedItem === false){
     return "That item is not in your cart.";
   }
 }
