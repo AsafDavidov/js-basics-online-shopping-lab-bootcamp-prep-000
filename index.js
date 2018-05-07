@@ -61,7 +61,7 @@ function removeFromCart(item) {
   var removedItem = false;
   for (var i = 0; i<cart.length;i++){
     if (cart[i].itemName == item){
-      cart.splice(i,0);
+      cart.splice(i,1);
       removedItem = true;
       return "cheese";
     }
