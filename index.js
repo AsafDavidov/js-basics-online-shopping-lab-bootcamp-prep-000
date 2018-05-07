@@ -40,7 +40,7 @@ function viewCart() {
         }
       }
       else{
-        outputString = outputString + ` ${cart[i].itemName} at $${cart[i].itemPrice}, `;
+        outputString = outputString + `${cart[i].itemName} at $${cart[i].itemPrice}, `;
       }
     }
     return outputString;
